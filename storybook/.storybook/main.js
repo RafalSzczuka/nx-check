@@ -8,7 +8,8 @@ module.exports = {
 
   stories: [
     ...rootMain.stories,
-    '../../apps/test-app/src/app/**/*.stories.@(js|jsx|ts|tsx)'
+    '../../apps/test-app/src/app/**/*.stories.@(js|jsx|ts|tsx)',
+    '../../libs/ui/src/components/**/*.stories.@(js|jsx|ts|tsx)'
   ],
   addons: [...rootMain.addons],
   webpackFinal: async (config, { configType }) => {

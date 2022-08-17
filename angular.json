@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "storybook": "storybook",
-    "test-app": "apps/test-app"
+    "test-app": "apps/test-app",
+    "ui": "libs/ui"
   }
 }
