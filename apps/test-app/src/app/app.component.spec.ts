@@ -29,4 +29,8 @@ describe('AppComponent', () => {
       'Welcome test-app'
     );
   });
+
+  it("should elo be elo", () => {
+    expect("elo").isElo();
+  })
 });
